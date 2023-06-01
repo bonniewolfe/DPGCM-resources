@@ -1,0 +1,8 @@
+site_name: DPGCM Resources
+theme:
+  name: material
+  features:
+    - content.action.edit
+repo_url: https://github.com/bonniewolfe/DPGCM-resources
+repo_name: bonniewolfe/DPGCM-resources
+edit_uri: edit/main/docs/
