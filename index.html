@@ -2,11 +2,7 @@
 <html>
 <head>
     
-    <script type="text/javascript">
-const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone 
-const html = `<iframe src="https://calendar.google.com/calendar/embed?src=dpgoscommunitymanager%40gmail.com&ctz=${timezone}" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>`
-document.getElementById('calendar-container').innerHTML = html;
-</script>
+
 </head>
 <body>
 
@@ -66,7 +62,11 @@ The solution is the version with ES2015 and without the unneeded JSTZ dependency
 </div>
 
 
-
+<script type="text/javascript">
+const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone 
+const html = `<iframe src="https://calendar.google.com/calendar/embed?src=dpgoscommunitymanager%40gmail.com&ctz=${timezone}" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>`
+document.getElementById('calendar-container').innerHTML = html;
+</script>
     
     
 </body>
