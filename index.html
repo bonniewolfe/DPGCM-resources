@@ -39,7 +39,7 @@ From: https://stackoverflow.com/questions/31821974/support-user-time-zone-in-emb
 
 <script type="text/javascript">
   var timezone = jstz.determine();
-  var pref = '<iframe src="https://calendar.google.com/calendar/b/2/embed?mode=agenda&src=dpgoscommunitymanager%40gmail.com';
+  var pref = '<iframe src="https://calendar.google.com/calendar/b/2/embed?mode=agenda&src=dpgoscommunitymanager%40gmail.com%40group.calendar.google.com&ctz=';
   var suff = '" style=" border:solid 1px #777 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>';
   var iframe_html = pref + timezone.name() + suff;
   document.getElementById('calendar-container').innerHTML = iframe_html;
