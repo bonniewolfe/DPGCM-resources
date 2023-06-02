@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+    
+    <script type="text/javascript">
+const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone 
+const html = `<iframe src="https://calendar.google.com/calendar/embed?src=dpgoscommunitymanager%40gmail.com&ctz=${timezone}" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>`
+document.getElementById('calendar-container').innerHTML = html;
+</script>
+</head>
 <body>
 
 <p>Digital Public Goods Community Manager Training Program</p>
@@ -40,7 +48,25 @@ Add links to the list
 
     <h2>Calendar</h2>
     <p>The links should be adjusted to show up in your computer's timezone</>
-        {%- include calendar.html -%}
+<!--
+From: https://stackoverflow.com/questions/31821974/support-user-time-zone-in-embedded-google-calendar
+The solution is the version with ES2015 and without the unneeded JSTZ dependency
+ -->
+
+
+ <!--
+      Containers: Events
+ -->
+  <div class="container pt-sm-2">
+         <h2>Timezone iframe test</h2>
+         <p>This should be showing the same calendar as below but with the times in your timezone.  If you are in PST, the event on June 5th is at 7am PST.  To test this, you can go to this <a href="https://savvytime.com/converter/pst-to-ist-ny-new-york-city">url</a> and put in your time zone.  The time there should match what you see on this calendar 
+
+  </div>
+<div id="calendar-container">
+</div>
+
+
+
     
     
 </body>
