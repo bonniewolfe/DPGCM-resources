@@ -29,3 +29,5 @@ GitHub links: github.com/csmlo
 View the list of links provided by the trainer, cohort members and DPGs as the program progresses
 Add links to the list
 
+    {%- include calendar.html -%}
+
