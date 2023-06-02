@@ -1,12 +1,15 @@
 <!--
 From: https://stackoverflow.com/questions/31821974/support-user-time-zone-in-embedded-google-calendar
+The solution is the version with ES2015 and without the unneeded JSTZ dependency
  -->
 
 
  <!--
       Containers: Events
  -->
-<div id="calendar-container"></div>
+<div id="calendar-container">
+     <p>Timezone iframe test.  This should be showing the same calendar as below but with the times in your timezone.
+</div>
 
 
  <!--
@@ -26,7 +29,7 @@ From: https://stackoverflow.com/questions/31821974/support-user-time-zone-in-emb
      </div>
 
      <br>
-     <p>The regular calendar
+     <p>Regular Calendar iframe
       <div id="calendar-container2">
            <iframe src="https://calendar.google.com/calendar/embed?src=dpgoscommunitymanager%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
       </div>
