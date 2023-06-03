@@ -17,7 +17,7 @@ Final touches are being added, it will be linked here when available
 
 ## Community Contacts
 ### Bonnie Wolfe
-Program Curriculum Developer/Trainer
+- Program Curriculum Developer/Trainer
 - LinkedIn: [linkedin.com/in/bonnieawolfe](https://www.linkedin.com/in/bonnieawolfe/)
 - Slack handle @Bonnie Wolfe
 - GitHub links: [github.com/experimentsinhonesty](https://github.com/experimentsinhonesty) & [github.com/bonniewolfe](https://github.com/bonniewolfe)
