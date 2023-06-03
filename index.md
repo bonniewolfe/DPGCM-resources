@@ -4,10 +4,10 @@ Digital Public Goods Community Manager Training Program
 ## Main Program links
 
 - [Program Overview](overview.html)
+- [GitHub Code of Conduct](https://docs.github.com/site-policy/github-terms/github-community-code-of-conduct)
 - Slack 
   - [dpgcm.slack.com](https://dpgcm.slack.com/)
   - [Invite](https://join.slack.com/t/dpgopensource-gfn1307/shared_invite/zt-1wiykjh7k-dKu5k1RpXI_S7HGsSe_AJQ)
-- [GitHub Code of Conduct](https://docs.github.com/site-policy/github-terms/github-community-code-of-conduct)
 
 ## Questions
 If you have questions, submit them using our [DPGCM question form](https://docs.google.com/forms/d/e/1FAIpQLSdxl6nUoPpc9qsvQH91VKXx4JCLN0os7D8nkMiNGOBpkRaGkg/viewform). If the question is relevant to other cohort members we will add it here or to the program overview page.
@@ -35,7 +35,7 @@ View the list of links provided by the trainer, cohort members and DPGs as the p
 
 ## Calendars/Dates and Recording Links
 - [Google Calendar](https://bonniewolfe.github.io/dpgcm-resources/calendar) - should load in your time zone
-- [Group Session Dates, Zoom and Recording links](https://docs.google.com/spreadsheets/d/1TauLCgXC0EdVsBCUmtpmsYdww3f4jbg62Vls_5lyECY/)
+- [Group Session Dates, Zoom and Recording links](https://docs.google.com/spreadsheets/d/1TauLCgXC0EdVsBCUmtpmsYdww3f4jbg62Vls_5lyECY/preview)
 - [Booking link for 30 min 1-on-1’s](https://calendar.app.google/rbxVyji7PUp7GwRB9)
 
 ## Surveys
